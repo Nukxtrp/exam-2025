@@ -1,0 +1,139 @@
+				PROPOSAL 
+
+
+I propose a webpage with a full home page containing a range of information spanning from what we do to what we sell and then have a navbar with a login system, a register system, a page where you can browse all the products that we sell and the prices for quotes on installation and servicing for the products there, a page with a carbon emission calculator so the users can calculate their carbon footprint and based on the inputted data it will output advice on how to reduce their emissions, also once you’ve logged in there will be 2 buttons on the navbar that shows up in place of the login/signup button one of which allows you to log out and the other sending you to a settings page that allows you to do things such as change your login details, change whether the page is in dark mode and finally a feature for accessibility where you will be able to change the text size for partial blindness or activate a colour blindness mode which which will change the colours to allow the colour blind to see the page properly.
+
+Users that could benefit from this solution are:
+People hoping to go green and looking at the options
+People hoping to go green and wanting to know their carbon emission levels 
+People hoping to go green and wanting to track their carbon emission levels 
+People hoping to go green and wanting to see how much it would cost them
+The elderly
+The partially blind
+The colour blind
+
+Business context
+
+We are very excited to announce our collaboration with Rolsa Technologies (an international leader in the green technology field) as they engage in such environmentally friendly initiatives as solar panel installations, car charging stations, and smart home energy systems. Their goal is to provide the best customer service while developing a state of the art commerce platform. This platform will serve as a guide to customers by giving them information in a way that is clear and to the point about green energy products while offering practical tips that are individualized according to their daily routine that exceed their carbon emission rate of the day. The software will also automate the process of scheduling consultations and installations as it will also provide tools to calculate and monitor carbon emissions.
+This platform has the ability of featuring options such as account registration, energy usage tracking and complete accessibility to support all users. We are committed to realizing their vision and would be excited to be a part of the project that combines convenience and eco-friendliness.
+
+
+
+
+
+Functional and Non-Functional Requirements:
+
+Functional Requirements:
+Information Delivery: The system should show information about the green energy currently on market and should provide information on how to reduce their carbon footprint .
+Consult and Installation Scheduling: customers should be able to book consultations or installations directly through the website.
+Carbon Footprint and Monitoring:The platform must include a tool for calculating the users carbon footprint. It should allow the user to save their track and monitor their carbon footprint over time.
+Account management: The website should allow the user to register for an account. The website should allow the users to login to manage their consults, personal data and preferences.
+Accessibility: the platform must include accessibility features such as text size adjustments and colour blind friendly modes.
+Energy usage tracking: The website should include tools to help the user track and measure their energy usage.
+
+
+Non-Functional Requirements:
+User Interface and Experience: The website should provide an intuitive and user-friendly experience.
+Performance: The website must be able to handle a number of users efficiently without any noticeable delay in response time.
+Scalability: The website should be able to allow further growth including increasing the number of users at a time.
+Reliability: The website should ensure consistent uptime and strong error handling mechanism.
+Security: Customer data including personal information and energy usage information must be stored securely. The website should follow data regulation laws such as GDPR
+Compatibility: The website should work seamlessly across various devices and operating systems. It should also support modern web browsers.
+Maintainability: The codebase should be well documented to simplify maintenance and updates. Regular updates should be possible without disrupting the user experience.
+Localisation: The platform should support multiple languages making it accessible to a diverse customer base.
+
+
+
+
+
+Rational:
+This project has been designed to provide Rolsa Technologies and its clients with a product that is easy to use as well as being practical and effective. The main object of this platform is to provide further understanding on sustainability. A page where customers can get all details about the different products Rolsa Technologies have, for example the installation of solar panels, electric vehicle charging stations, and energy saving systems for smart homes, also what would be the best option for them to make decisions quickly thanks to options available to them.
+Containing a carbon emissions calculator is extremely important due to the fact it is not just a matter of throwing numbers at the clients rather it is about helping people to make the best choices to suit their needs and preferences. When customers see how they affect the environment and get useful advice on how to reduce their energy consumption they feel that they have the power to take decisive action. Adding functionality to schedule consultations and installations easily and therefore creating a practical tool makes it a platform that people can trust.
+Accessibility is an important aspect of the platform design which is crucial in ensuring that it is user friendly. Whether it includes options for adjustable text sizes, color blind friendly features, or even a dark mode the platform aims to help all the people including but not limited to old people and the ones with specific needs such an approach embodies the previously mentioned principles of Rolsa Technologies.
+
+The technical side is the main part where the proposal targets building a stable, secure, and scalable future for the company. Amongst the demanded functions are things like user registration and energy tracking. Those features clearly demonstrate the company’s urge to provide the customers with affordable reliability and long-term usability. With these morals and ideals the business creates a platform that has lasting, reliable power instead of just working only for a few months then requiring replacement.
+
+
+
+
+
+
+
+
+
+
+
+
+Decomposition:
+
+Functional Requirements:
+Information delivery
+Data Sourcing: Locate trusted sources of green energy products and carbon emission reduction strategies ensuring accuracy. 
+Context Management: Create a system to organise, store and update information efficiently and without any technical issues.
+Search and Filtering: Build tools for the users to locate green energy products and information easily.
+User Engagement:  add information in a way that makes it interesting and accessible 
+
+Consult and Installation Scheduling
+Appointment System: make a booking system to manage scheduling and cancellation of consultations and installations.
+Calendar Integration: Link appointments with the staff calendar to prevent double bookings 
+Notification Settings: implement automated notifications for confirmations, reminders and updates.
+Error Handling: Ensure the system can handle scheduling and provide user friendly resolution options.
+
+
+Carbon Footprint and Monitoring 
+Calculation Algorithm: Design or implement an algorithm to calculate an individual's carbon footprints based on their inputted data.
+Data Storage: Develop a secure database for storing and tracking carbon footprint data for users.
+Visualisation: Implement dashboards with graphics and visuals to display trends in the users carbon footprints and comparisons.
+Progress Tools: include features that allow the user to set and track goals for reducing their carbon footprint.
+
+Account Management
+Authentication: Build a secure registration and login with a form of 2FA (2 factor authentication) options 
+User Dashboard:  Create a dashboard so the users can view and manage their details.
+Encryption: Store their data securely within a database ensuring to follow the Data regulation laws and GDPR.
+
+Accessibility
+Visual Impairments:  Include font size adjustments within the user interface settings.
+Colour Blind: Ensure to use WCAG compliant colour pallets and tools for testing the accessibility of the site.
+Assistive Technologies: Integrate ARIA(Accessible rich internet applications) tags for compatibility with assistive tools.
+
+Energy Usage Tracking
+Input/Tracking of Data: Build input forms connected to a database for energy data storage.
+Meaningful Outputs: Use visualisation tools for clear data display.
+Providing Recommendations: Add a function to analyze patterns and suggest energy saving tips.
+
+
+Non Functional Requirements
+User Interface and Experience
+Navigation System: Conduct user research to develop wireframes and prototypes.
+Usability Challenges: proform usability testing and iteratively improve the interface.
+
+Performance
+Response Time: implement catching techniques and optimize query performances.
+Server Side Delays: Use content delivery networks for faster static content delivery. 
+
+Scalability 
+Growing User Count: Use a cloud based infrastructure for scalability. 
+Expansion Prep: implement a modular development process to allow for future upgrades.
+Reliability
+Availability: Deploy redundant servers to minimise downtime risks. 
+Error Handling: Create detailed error handling protocols for better recovery.
+
+Security
+Data Protection: Encrypt the data in transit(HTTPS) and at rest (AES).
+Data Protection Laws: Conduct regular security checks and use secure APIs. 
+
+Compatibility
+Browsers and OS: Use responsive web design to optimise the website for all device sizes. 
+Modern Browser: Test compatibility with popular web browsers.
+
+Maintainability
+Ease of Maintenance: Follow the best coding practices and thoroughly document your code.
+Updates: Use CI/CD Pipelines for seamless updates and deployment. 
+
+
+
+
+Localisation
+Language testing: Implement internationalisation frameworks for content translation. 
+Region settings: Use local specific configurations to handle regional variations.
+
